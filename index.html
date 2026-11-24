@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#145c4a">
+  <meta name="description" content="Discover great Nigerian products, share recommendations and earn rewards with NORI.">
+  <title>NORI — Discover. Share. Earn.</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="NORI home"><img src="nori-logo.png" alt="NORI"></a>
+    <button class="menu-toggle" id="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="main-nav" id="main-nav" aria-label="Main navigation">
+      <a href="#how-it-works">How it works</a>
+      <a href="#marketplace">Marketplace</a>
+      <a href="#seller-dashboard">Seller studio</a>
+      <a href="#promoter-dashboard">Promoter hub</a>
+    </nav>
+    <div class="header-actions"><span class="demo-pill">DEMO MODE</span><button class="button button-small button-outline" data-nav="marketplace">Explore products <span>↗</span></button></div>
+  </header>
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-mark">✳</span> A marketplace built on recommendations</p>
+        <h1>Good products deserve to be <em>discovered.</em></h1>
+        <p class="hero-text">NORI connects businesses with people who help their products reach more customers. Discover products, share recommendations and earn commissions from successful referrals.</p>
+        <div class="hero-actions"><button class="button button-primary" data-nav="marketplace">Explore products <span>→</span></button><button class="button button-soft" data-nav="seller-dashboard">Start selling <span>↗</span></button></div>
+        <div class="hero-proof"><div class="avatar-stack"><span>O</span><span>A</span><span>T</span></div><p><strong>Good people. Good products.</strong><br>One recommendation at a time.</p></div>
+      </div>
+      <div class="hero-art" aria-label="Featured product recommendation">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="hero-note note-top"><span class="note-icon">↗</span><span><strong>Share what you love</strong><small>Your link, your community</small></span></div>
+        <img class="hero-product" src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85" alt="Red running sneaker" onerror="this.src='https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=900&q=85'">
+        <div class="hero-product-tag"><span class="tag-dot"></span> COMMUNITY FAVOURITE</div>
+        <div class="hero-note note-bottom"><span class="note-icon note-amber">₦</span><span><strong>Earn on every sale</strong><small>Commissions from 8%</small></span></div>
+        <span class="sparkle sparkle-one">✳</span><span class="sparkle sparkle-two">✦</span>
+      </div>
+      <div class="hero-bottom"><span>DISCOVER</span><i></i><span>SHARE</span><i></i><span>EARN</span></div>
+    </section>
+    <section class="trust-strip"><p>MADE FOR PEOPLE WHO KNOW A GOOD THING</p><div><span>Independent sellers</span><b>✳</b><span>Everyday recommenders</span><b>✳</b><span>Made for Nigeria</span></div></section>
+    <section class="section how-section" id="how-it-works">
+      <div class="section-heading"><div><p class="eyebrow">SIMPLE BY DESIGN</p><h2>A good thing goes <em>further.</em></h2></div><p>Great recommendations already move the world. NORI makes sure the people behind them get recognised.</p></div>
+      <div class="steps-grid"><article class="step-card"><span class="step-number">01</span><div class="step-icon green-icon">◈</div><h3>Sellers list</h3><p>Businesses put their products in front of a community ready to discover something new.</p><span class="step-arrow">↗</span></article><article class="step-card"><span class="step-number">02</span><div class="step-icon amber-icon">↗</div><h3>Promoters share</h3><p>Find something you love, get your unique link and recommend it to your people.</p><span class="step-arrow">↗</span></article><article class="step-card"><span class="step-number">03</span><div class="step-icon green-icon">₦</div><h3>Everyone wins</h3><p>When an order is confirmed, the seller grows and you earn a commission.</p><span class="step-arrow">↗</span></article></div>
+    </section>
+    <section class="split-benefits"><article class="benefit-panel seller-panel"><div class="benefit-top"><span class="small-label">FOR SELLERS</span><span class="benefit-stamp">↗</span></div><h2>Let good people<br>do the <em>talking.</em></h2><p>Grow through trusted word of mouth. Set your commission, meet new customers and only approve orders you’ve fulfilled.</p><button class="text-link" data-nav="seller-dashboard">Open seller studio <span>→</span></button><div class="benefit-graphic seller-graphic"><div class="graphic-card"><span>YOUR PRODUCT</span><strong>In good company.</strong><span class="graphic-line"></span></div><span class="graphic-star">✳</span></div></article><article class="benefit-panel promoter-panel"><div class="benefit-top"><span class="small-label">FOR PROMOTERS</span><span class="benefit-stamp">✳</span></div><h2>Good taste<br>is <em>worth sharing.</em></h2><p>Discover local products, share a personal referral link and follow every click, order and commission.</p><button class="text-link" data-nav="promoter-dashboard">Open promoter hub <span>→</span></button><div class="benefit-graphic promoter-graphic"><div class="phone-card"><div class="phone-top"></div><div class="phone-photo"></div><strong>Found my new favourite.</strong><small>nori.ng/r/you</small></div><span class="graphic-heart">♥</span></div></article></section>
+    <section class="section marketplace-section" id="marketplace">
+      <div class="section-heading marketplace-heading"><div><p class="eyebrow">THE NORI MARKETPLACE</p><h2>Find your next <em>favourite.</em></h2></div><button class="text-link" data-nav="marketplace">Browse the marketplace <span>→</span></button></div>
+      <div class="market-tools"><div class="search-box"><span>⌕</span><input id="product-search" type="search" placeholder="Search products or sellers" aria-label="Search products"></div><div class="filter-group"><select id="category-filter" aria-label="Filter by category"><option value="all">All categories</option></select><select id="sort-filter" aria-label="Sort products"><option value="featured">Featured</option><option value="commission">Highest commission</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></div></div>
+      <div class="category-chips" id="category-chips"></div><div class="product-grid" id="product-grid"></div><div class="empty-state hidden" id="empty-products">No products match that search. Try another term or category.</div>
+      <div class="marketplace-note"><span>✳</span><p>Every product is open to promote. No applications. No waiting.</p><button class="text-link" data-nav="promoter-dashboard">See how it works <span>→</span></button></div>
+    </section>
+    <section class="dashboard-section seller-dashboard" id="seller-dashboard">
+      <div class="dashboard-header"><div><p class="eyebrow">YOUR SELLER STUDIO <span class="demo-inline">DEMO ACCOUNT</span></p><h2>Make room for <em>growth.</em></h2><p>Manage listings, follow referrals and decide which orders are confirmed.</p></div><button class="button button-primary" id="add-product-button">＋ Add a product</button></div>
+      <div class="stat-grid" id="seller-stats"></div>
+      <div class="dashboard-columns"><div class="dashboard-card listings-card"><div class="card-heading"><div><span class="small-label">YOUR CATALOGUE</span><h3>Product listings</h3></div><span class="count-badge" id="listing-count">0 products</span></div><div class="table-wrap"><table><thead><tr><th>PRODUCT</th><th>PRICE</th><th>COMMISSION</th><th>STATUS</th><th>ACTIONS</th></tr></thead><tbody id="seller-products"></tbody></table></div><div class="mobile-list" id="seller-products-mobile"></div></div>
+      <div class="dashboard-card orders-card"><div class="card-heading"><div><span class="small-label">REFERRAL ACTIVITY</span><h3>Recent orders</h3></div><span class="count-badge" id="order-count">0 orders</span></div><div class="orders-list" id="seller-orders"></div></div></div>
+    </section>
+    <section class="dashboard-section promoter-dashboard" id="promoter-dashboard">
+      <div class="dashboard-header"><div><p class="eyebrow">YOUR PROMOTER HUB <span class="demo-inline">DEMO ACCOUNT</span></p><h2>Your recommendations, <em>at work.</em></h2><p>Keep tabs on your links, referrals and estimated commissions.</p></div><button class="button button-soft" data-nav="marketplace">＋ Find products</button></div>
+      <div class="stat-grid" id="promoter-stats"></div>
+      <div class="dashboard-columns promoter-columns"><div class="dashboard-card links-card"><div class="card-heading"><div><span class="small-label">YOUR LINKS</span><h3>Products you promote</h3></div><span class="count-badge" id="promoted-count">0 links</span></div><div id="promoted-list" class="promoted-list"></div></div><div class="dashboard-card commission-card"><div class="card-heading"><div><span class="small-label">EARNINGS</span><h3>Commission history</h3></div></div><div class="orders-list" id="promoter-orders"></div><div class="demo-footnote">Commissions are estimates in this frontend demo. No payments are made.</div></div></div>
+    </section>
+    <section class="final-cta"><div class="cta-decoration">✳</div><p class="eyebrow">GOOD THINGS ARE BETTER SHARED</p><h2>Who will you help<br><em>discover something good?</em></h2><p>Start with a product you believe in.</p><div><button class="button button-cream" data-nav="marketplace">Explore products <span>→</span></button><button class="cta-text" data-nav="seller-dashboard">I have something to sell ↗</button></div></section>
+  </main>
+  <footer class="site-footer"><a class="brand footer-brand" href="#home"><img src="nori-logo.png" alt="NORI"></a><p>Discover products. Share recommendations. Earn rewards.</p><nav><a href="#how-it-works">How it works</a><a href="#marketplace">Marketplace</a><a href="#seller-dashboard">Seller studio</a><a href="#promoter-dashboard">Promoter hub</a></nav><small>© 2026 NORI · A frontend demo. No real payments or earnings.</small></footer>
+
+  <div class="modal-backdrop hidden" id="modal-backdrop" role="presentation"><section class="modal" id="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title"><button class="modal-close" id="modal-close" aria-label="Close dialog">×</button><div id="modal-content"></div></section></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
